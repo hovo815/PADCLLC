@@ -1,0 +1,20 @@
+.buttonNewsCard {
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  button:hover {
+    color: #00c4e0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .buttonNewsCard {
+    button {
+      font-size: 15px;
+    }
+  }
+}

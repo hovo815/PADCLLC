@@ -1,0 +1,516 @@
+.ourBlogTwoCard {
+  display: flex;
+  justify-content: center;
+  &-card {
+    display: flex;
+    justify-content: space-between;
+
+    //max-width: 1360px;
+    width: 100%;
+    &-right {
+      width: 100%;
+    }
+    &-border {
+      margin: 155px 30px 10px 30px;
+    }
+
+    &-newsCard {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 964px;
+      height: 337px;
+      &-img {
+        background-size: cover;
+        width: 414px;
+        height: 337px;
+      }
+
+      &-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10px;
+        width: 550px;
+        height: 337px;
+        &-more {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 500px;
+          height: 105px;
+          &-icon {
+            margin-top: 10px;
+            p {
+              font-family: 'Roboto', sans-serif;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 26px;
+              text-align: left;
+            }
+
+            a {
+              margin: 5px;
+              width: 11.05px;
+              height: 9.5px;
+              top: 2.33px;
+              left: 1.32px;
+
+            }
+          }
+
+          &-button {
+            height: 29px;
+            p {
+              font-family: 'Montserrat', sans-serif;
+              font-size: 15px;
+              font-weight: 400;
+              height: 12px;
+            }
+          }
+        }
+
+        &-title {
+          font-family: 'Montserrat', sans-serif;
+          margin-top: 10px;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 35px;
+          text-align: left;
+          width: 500px;
+        }
+
+        &-text {
+          font-weight: 400;
+          font-family: 'Montserrat', sans-serif;
+          margin-top: 10px;
+          font-size: 20px;
+          line-height: 35px;
+          text-align: left;
+          width: 500px;
+        }
+      }
+
+      &-button {
+        height: 30px;
+        &-border {
+          background-color: #C4C4C4B2;
+          height: 1px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &-border {
+      border: 1px solid #C4C4C4B2;
+      margin: 147px 30px 10px 30px
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .ourBlogTwoCard {
+    display: flex;
+    justify-content: center;
+    &-card {
+      display: flex;
+      justify-content: space-between;
+
+      //max-width: 1360px;
+      width: 100%;
+      &-right {
+        width: 100%;
+      }
+      &-border {
+        margin: 155px 30px 10px 30px;
+      }
+
+      &-newsCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 720px;
+        //height: 214px;
+        height: 232px;
+        &-img {
+          width: 337px;
+          height: 223px;
+          background-size: cover;
+        }
+
+        &-about {
+          width: 355px;
+          padding-left: 10px;
+
+          &-more {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            &-icon {
+              margin-top: 10px;
+
+              p {
+                line-height: 17.12px;
+                font-size: 12px;
+                font-family: 'Roboto', sans-serif;
+              }
+
+              a {
+                margin: 5px;
+              }
+            }
+
+            &-button {
+              height: 29px;
+
+              p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                height: 12px;
+              }
+            }
+          }
+
+          &-title {
+            font-weight: 700;
+            line-height: 25px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            width: 323px;
+            margin-top: 10px;
+          }
+
+          &-text {
+            font-weight: 400;
+            line-height: 23px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            width: 312px;
+            margin-top: 10px;
+          }
+        }
+
+        &-button {
+          height: 30px;
+          &-border {
+            background-color: #C4C4C4B2;
+            height: 1px;
+            width: 720px;
+            margin-top: 30px;
+          }
+        }
+      }
+
+      &-border {
+        border: 1px solid #C4C4C4B2;
+        margin: 147px 30px 10px 30px
+      }
+    }
+  }
+}
+@media screen and (max-width: 1230px) {
+  .ourBlogTwoCard {
+    display: flex;
+    justify-content: center;
+    &-card {
+      display: flex;
+      justify-content: space-between;
+
+      //max-width: 1360px;
+      width: 100%;
+      &-right {
+        width: 100%;
+      }
+      &-border {
+        margin: 155px 30px 10px 30px;
+      }
+
+      &-newsCard {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 720px;
+        //height: 214px;
+        height: 232px;
+        &-img {
+          width: 364px;
+          height: 223px;
+          background-size: cover;
+        }
+
+        &-about {
+          width: 355px;
+          padding-left: 10px;
+
+          &-more {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: auto;
+            &-icon {
+              margin-top: 10px;
+
+              p {
+                line-height: 17.12px;
+                font-size: 10px;
+                font-family: 'Roboto', sans-serif;
+              }
+
+              a {
+                margin: 5px;
+              }
+            }
+
+            &-button {
+              height: 29px;
+
+              p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                height: 12px;
+              }
+            }
+          }
+
+          &-title {
+            font-weight: 700;
+            line-height: 25px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            width: 323px;
+            margin-top: 10px;
+          }
+
+          &-text {
+            font-weight: 400;
+            line-height: 23px;
+            font-size: 15px;
+            font-family: 'Montserrat', sans-serif;
+            width: 312px;
+            margin-top: 10px;
+          }
+        }
+
+        &-button {
+          height: 30px;
+          &-border {
+            background-color: #C4C4C4B2;
+            height: 1px;
+            width: 720px;
+            margin-top: 30px;
+          }
+        }
+      }
+
+      &-border {
+        border: 1px solid #C4C4C4B2;
+        margin: 147px 30px 10px 30px
+      }
+    }
+  }
+}
+@media screen and (max-width: 960px) {
+  .ourBlogTwoCard {
+    &-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &-right {
+        min-width: 100%;
+        margin: 10px;
+      }
+      &-border {
+        margin: 155px 30px 10px 30px
+      }
+
+      &-newsCard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+        height: 214px;
+        margin-top: 30px;
+
+        &-about {
+          &-title {
+            font-weight: 700;
+            line-height: 21px;
+            font-size: 15px;
+          }
+
+          &-text {
+            font-size: 13px;
+          }
+
+          &-more {
+            flex-direction: row;
+            align-items: center;
+          }
+        }
+
+        &-button {
+          display: flex;
+          justify-content: center;
+
+          &-border {
+            min-width: 569px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .ourBlogTwoCard {
+    &-card {
+      &-newsCard {
+        &-about {
+
+        }
+      }
+    }
+  }
+  .ourBlogTwoCardmobile-card {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 740px) {
+  .ourBlogTwoCard {
+
+    &-card {
+      display: flex;
+      flex-direction: column;
+      &-right {
+        width: 100%;
+        margin: 10px;
+      }
+      &-border {
+        margin: 155px 30px 10px 30px
+      }
+
+      &-newsCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        &-about {
+          padding-left: 0;
+          height: 400px;
+          padding-top: 17px;
+          &-title {
+            font-weight: 700;
+            line-height: 21px;
+            font-size: 15px;
+          }
+
+          &-text {
+            font-size: 13px;
+          }
+
+          &-more {
+            flex-direction: row;
+            align-items: center;
+            height: 56px;
+          }
+        }
+
+        &-button {
+          display: none;
+          width: 50%;
+          &-border {
+            width: 50%;
+          }
+        }
+
+        &-img {
+          margin: 0 0 0 0;
+
+          img {
+            width: 100%;
+            height: 268px;
+            object-fit: cover;
+            padding-top: 66px;
+          }
+        }
+      }
+    }
+
+    &-centre {
+      text-align: center;
+      width: 100%;
+      height: 300px;
+    }
+  }
+  .ourBlogTwoCardmobile-card {
+    height: 400px;
+  }
+  .ourBlogTwoCardmobile-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 76px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .ourBlogTwoCard {
+    &-card {
+      &-newsCard {
+        &-img{
+           height: 180px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  .ourBlogTwoCard {
+    &-card {
+      display: flex;
+      flex-direction: column;
+      &-right {
+        width: 100%;
+        margin: 10px;
+      }
+      &-border {
+        margin: 155px 30px 10px 30px
+      }
+
+      &-newsCard {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        &-about {
+          padding-left: 0;
+          height: 300px;
+          width: 100%;
+
+          &-title {
+            font-weight: 700;
+            line-height: 21px;
+            font-size: 15px;
+            width: 100%;
+          }
+
+          &-text {
+            font-size: 13px;
+            width: 100%;
+          }
+        }
+        &-img{
+          background-size: cover;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+

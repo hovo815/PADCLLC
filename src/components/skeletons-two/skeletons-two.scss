@@ -1,0 +1,51 @@
+.skeletons-container {
+  display: flex;
+  height: 214px;
+  margin-top: 80px;
+  &-right {
+    width: 100%;
+    margin-top: 10px;
+
+    &-margin {
+      margin: 10px;
+    }
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+
+      &-LogDat {
+        width: 100%;
+
+        &-data {
+
+        }
+
+        &-logo {
+
+        }
+      }
+
+      &-button {
+        text-align: end;
+        width: 100%;
+      }
+    }
+  }
+
+  &-left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .skeletons-container{
+    display: flex;
+    flex-direction: column;
+    height: 426px;
+    &-left{
+      height: 214px;
+    }
+  }
+}
